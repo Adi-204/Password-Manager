@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+p{
+    font-family: 'Roboto', sans-serif;
+}
+.logo{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    margin: 0 13px;
+    font-size: 25px;
+    cursor: pointer;
+}
+nav{
+    background-color: #023047;
+    color: white;
+    padding: 15px 15px;
+    display: flex;
+    justify-content: space-between;
+}
+table,td,tr{
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 5px 13px;
+}
+.container{
+    max-width: 80vw;
+    margin: 23px auto;
+
+}
+.btn{
+    padding: 8px 19px;
+    background-color: black;
+    color: white;
+    border-radius: 7px;
+    margin: 20px 0px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.btnsm{
+    padding: 7px 10px;
+    background-color: black;
+    color: white;
+    border-radius: 12px;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+h1,h2{
+    font-family: 'Montserrat', sans-serif;
+    margin: 23px 0px;
+}
+th{
+    font-family: 'Roboto', sans-serif;
+}

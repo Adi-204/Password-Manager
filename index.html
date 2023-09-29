@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PassX-Your Personal Password Manager</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="responsive.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">PassX</div>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <h1>Password Manager</h1>
+            <p>"Welcome to PassX!"
+                <br>
+                Keeping your digital life secure is our top priority, and we're here to help you do just that. Say goodbye to the stress of remembering complex passwords and let us take care of it for you. With our state-of-the-art password management tools, you can ensure that your online accounts are safe and sound.
+            </p>
+            <h2>Your Passwords</h2>
+            <table>
+                <tr>
+                  <th>App</th>
+                  <th>Username</th>
+                  <th>Password</th>
+                  <th>Delete</th>
+                </tr>
+              </table>
+            <h2>Add Password</h2><br>
+              <form action="/submit" method="post">
+                <label for="website">App:</label>
+                <input type="text" id="website" name="website" required>
+                <br><br>
+                <!-- Text input for username -->
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+                <br><br>
+                <!-- Password input -->
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+                <br><br>
+                <!-- Submit button -->
+                <button class="btn" type="submit">Submit</button>
+              </form>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
